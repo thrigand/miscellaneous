@@ -4,24 +4,24 @@ Program invocation must be as below:
 
 $ echo "abc123" | python SumProgramMisc.py 
 
-O/P:  
+Output:  
 6
 
 
 $ echo "abc123" | python SumProgramMisc.py -x
 
-O/P:  
+Output:  
 39
 
 
 $ echo "qq" | python SumProgramMisc.py 
 
-O/P:  
+Output:  
 0
 
 
 $ echo "abc123" > file.tmp
 $ python SumProgramMisc.py -f file.tmp
 
-O/P:  
+Output:  
 6
