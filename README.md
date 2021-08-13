@@ -2,11 +2,18 @@
 
 Program invocation must be as below:
 
-$ python SumProgram.py "abc123"
-Output :  sum of all integer values
+$ echo "abc123" | python SumProgramMisc.py 
+6
 
-$ python SumProgram.py -x "abc123"
-Output : converts the hexa decimals into decimals and produce the sum.
 
-$ python SumProgram.py -f file.tmp
-Output:  sum of all integer values present in the file.tmp
+$ echo "abc123" | python SumProgramMisc.py -x
+39
+
+
+$ echo "qq" | python SumProgramMisc.py 
+0
+
+
+$ echo "abc123" > file.tmp
+$ python SumProgramMisc.py -f file.tmp
+6
